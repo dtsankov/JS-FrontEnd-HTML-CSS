@@ -1,0 +1,71 @@
+body{
+    font-family:  Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia,serif;
+}
+
+p, * + ul, *  + ol{
+    padding-bottom: 1.5em;
+}
+
+ul, ol , blockquote {
+    padding-left: 1.5em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+
+blockquote{
+    font-style: italic;
+    border-left: 4px solid rgb(221, 221, 221);
+}
+
+ul,ol{
+    list-style-position: inside;
+}
+
+p.author{
+    text-align: right ;
+}
+
+hr{
+    border: 1px solid #666;
+    margin: 32px 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse ;
+}
+
+table,td{
+    border: 1px solid #ccc;
+}
+
+th,td{
+    padding: 8px 10px;
+}
+
+th{
+    text-align: left;
+}
+
+table thead th{
+    background: #ddd;
+}
+
+table tbody tr:nth-child(even) td{
+    background: #eee;
+}
+
+.disc{
+   list-style-type: disc; 
+}
+
+.circle{
+list-style-type: circle;
+}
