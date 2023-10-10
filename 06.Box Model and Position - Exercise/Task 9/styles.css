@@ -1,0 +1,64 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body,
+table,
+input,
+textarea {
+  font: inherit;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+  color: rgb(51, 51, 51);
+  display: inline-block;
+}
+
+article {
+  display: inline-block;
+  width: 43%;
+  margin: 45px;
+}
+
+aside {
+  display: inline-block;
+  margin: 25px;
+  position: relative;
+  top: -1197px;
+  left: -10px;
+  width: 17%;
+}
+
+div {
+  display: inline-block;
+  width: 37em;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0.8em 0em;
+}
+
+ul,
+ol,
+p {
+  padding: 0.8em 0em;
+}
+
+ul li {
+  list-style-position: inside;
+  margin-left: 25px;
+}
+
+aside ul li {
+    text-decoration: underline;
+}
