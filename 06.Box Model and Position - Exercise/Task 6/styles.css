@@ -1,0 +1,51 @@
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font: 16px/1.5  Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body,table,input, textarea{
+    font: inherit;
+}
+
+body{
+    padding: 50px 115px;
+}
+
+header{
+    margin-bottom: -25px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+nav{
+    display: inline-block;
+    margin-left: 128px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 17px;
+}
+
+nav li a { 
+    color:green;
+    text-decoration: none;
+}
+
+p,ol,ul{
+    padding-bottom: 15px;
+}
+
