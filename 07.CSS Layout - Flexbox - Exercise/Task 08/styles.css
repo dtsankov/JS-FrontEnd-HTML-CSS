@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  min-height: 100vh;
+}
+
+header,footer{
+  flex-basis: 100%;
+}
+
+header{
+  border-bottom: 3px solid grey;
+  text-transform: uppercase;
+  margin-bottom: 2em;
+}
+
+main{
+  flex: 1 1 auto;
+}
+
+footer{
+  color: rgb(255, 255, 255);
+  background-color: rgb(102, 102, 102);
+}
+
+p{
+  margin: 1.5em 0 ;
+}
+
+header,main, footer{
+  padding: 0.4em 2em;
+}
