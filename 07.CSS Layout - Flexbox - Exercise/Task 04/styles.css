@@ -1,30 +1,41 @@
-html {
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+html{
+  font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+  padding: 2em;
 }
 
 .container {
   display: flex;
-  align-items: center;
   max-width: 65vw;
-  flex-wrap: wrap;
-  align-content: flex-start;
 }
 
-section{
-    align-items: center;
-    display: flex;
+section {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 span {
   border: 1px solid black;
+  padding: 1em;
+  padding-bottom: 2em;
+  text-align: center;
+  flex-grow: 1;
 }
 
-.site-header{
-    flex-basis: 100%;
-}
-
-.notes {
+section.notes {
   flex-direction: column;
 }
 
- 
+section.week :nth-child(1),
+section.week :nth-child(7) {
+  flex-basis: 100%;
+  padding-bottom: 3em;
+}
