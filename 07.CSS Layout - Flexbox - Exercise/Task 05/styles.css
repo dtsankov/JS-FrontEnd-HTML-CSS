@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav ul li {
-  flex-direction: row;
+  display: block;
   list-style: none outside;
 }
 
