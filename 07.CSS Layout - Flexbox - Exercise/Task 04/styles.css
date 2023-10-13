@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 65vw;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+section{
+    align-items: center;
+    display: flex;
+}
+
+span {
+  border: 1px solid black;
+}
+
+.site-header{
+    flex-basis: 100%;
+}
+
+.notes {
+  flex-direction: column;
+}
+
+ 
