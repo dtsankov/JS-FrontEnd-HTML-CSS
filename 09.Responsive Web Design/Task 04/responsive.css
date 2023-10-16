@@ -1,0 +1,12 @@
+code:hover{
+   color: #fff;
+   background: black;
+ }|
+
+
+@media (hover:hover){
+     code:hover{
+      color: #fff;
+      background: black;
+    }
+}
