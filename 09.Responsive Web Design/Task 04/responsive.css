@@ -1,10 +1,4 @@
-code:hover{
-   color: #fff;
-   background: black;
- }|
-
-
-@media (hover:hover){
+@media (hover){
      code:hover{
       color: #fff;
       background: black;

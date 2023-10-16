@@ -1,0 +1,15 @@
+.card h2 {
+  font-size: 1em;
+}
+
+.post{
+  display: grid;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  resize: horizontal;
+  overflow: hidden;
+  container-type:ininline-size;
+}
+
+
+ 
