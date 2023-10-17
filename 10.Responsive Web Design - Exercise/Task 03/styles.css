@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 12px/1.5 Verdana, sans-serif;
+}
+
+blockquote,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font: 16px/1.5 Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  background-color: #ddd;
+  padding: 2em;
+}
+
+a {
+  color: rgb(0, 153, 0);
+}
+
+p {
+  padding-bottom: 1.5em;
+}
+
+img {
+  background: white;
+}
+
+div.page {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85em;
+  margin: 4em auto;
+  gap: 4em;
+}
+
+.site-header {
+  flex: 1 1 100%;
+  padding-bottom: 2em;
+  border-bottom: 2px solid black;
+}
+
+.site-header h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.site-main {
+  display: flex;
+  flex: 1 0 65%;
+}
+
+.site-main h2 {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+
+.site-main h3 {
+  font-size: 1.8em;
+  padding-bottom: 1em;
+}
+
+img[class*="align"] {
+  display: block;
+  border: 3px solid black;
+  background: white;
+  padding: 0.5em;
+  box-shadow: 0 0 1em 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.align-right {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+.align-left {
+  float: left;
+  margin: 0 1em 1em 0;
+}
+
+.site-side {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 25%;
+  margin-left: 2em;
+}
+
+.blockquote-left {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1.5em;
+}
+
+.blockquote-left p {
+  flex: 1 0 46%;
+}
+
+.blockquote-left blockquote {
+  border-left: 3px solid #aaa;
+  margin-left: 2em;
+  padding-left: 2em;
+  flex: 1 0 50%;
+  font-style: italic;
+  color: #aaa;
+}
+
+.blockquote-left blockquote :nth-child(1) {
+  padding-bottom: 2em;
+}
+
+.blockquote-left blockquote :nth-child(2) {
+  text-align: right;
+}
+
+.site-side h6 {
+  font-size: 25px;
+  padding: 0.3em 0;
+}
+
+.site-side ul { 
+  list-style: inside;
+}
+
+@media (max-width: 500px){
+  .site-main article :nth-child(2) h2 + p,
+  .site-main article :nth-child(4) h2 + p
+   {
+    text-align: left;
+  }
+  .align-right,
+  .align-left{
+    text-align: left;
+    float: none;
+  }
+
+}
+
+@media (min-width: 500px){
+   html{
+    font-size: 14px;
+   }
+}
+
+@media (min-width: 600px){
+  html{
+   font-size: 16px;
+  }
+}
+
+@media (min-width: 800px){
+  html{
+   font-size: 18px;
+  }
+}
+
+@media (min-width: 1300px){
+  html{
+   font-size: 21px;
+  }
+}
+@media (min-width: 1800px){
+  html{
+   font-size: 23px;
+  }
+}
