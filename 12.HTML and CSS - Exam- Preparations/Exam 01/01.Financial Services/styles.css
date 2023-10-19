@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@700&family=Poppins&family=Raleway:wght@100&family=Work+Sans:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 12px/1.5 Poppins, sans-serif;
+}
+
+body{
+    padding: 2em;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* base-font size 12px */
+
+.container{
+    max-width: 81em;
+    margin:0 auto;
+}
+
+.section-header{
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.section-header h2 span{
+    color: #327DC4;
+}
+
+.section-content{
+    display: flex;
+    gap: 1.5em;
+}
+
+.section-content article,
+.section-content article .media{
+    display: block;
+    overflow: hidden;
+    border-radius: 1em;
+}
+
+.section-content article{
+    flex: 1 1 30%;
+    background: #819DAF;
+    color: black;
+}
+
+.section-content article .entry-content{
+    padding: 1.5em;
+}
+
+.section-content article .entry-content p{
+    margin: 1em 0 1em 0;
+}
+
+.section-content article .button{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    background: #327DC4;
+    border: 1px solid #323CC4;
+    outline: 1px solid #fff;
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+
+}
