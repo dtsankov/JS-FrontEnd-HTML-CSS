@@ -71,6 +71,10 @@
   }
 
 
-
+   .blog-news .blog-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2em
+   }
 
 }
