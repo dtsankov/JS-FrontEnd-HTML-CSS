@@ -15,66 +15,79 @@
     text-align: center;
   }
 
-  nav ul a{
+  nav ul a {
     font-size: 16px;
   }
 
-  .header-title{
+  .header-title {
     padding: 0.5em;
   }
- 
-  .header-title h1{
-         font-size: 36px;
+
+  .header-title h1 {
+    font-size: 36px;
   }
 
-  .team-description-wrapper{
+  .team-description-wrapper {
     width: 100%;
     padding: 2.5rem 0 6em 0;
   }
 
-
-  .team-description  ul{
-  gap: 5em;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-
+  .team-description ul {
+    gap: 5em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  main .team-description ul li img{
+  main .team-description ul li img {
     max-width: 213px;
-    max-height: 213px;  
+    max-height: 213px;
   }
 
   .about-us {
     width: 100%;
-    padding: 3.5rem 0px;;
+    padding: 3.5rem 0px;
   }
-  .about-us p:nth-child(2){
-    color: #949DA6;
+  .about-us p:nth-child(2) {
+    color: #949da6;
   }
   .about-us p:nth-child(3) {
     width: 77%;
-    color: #949DA6;
+    color: #949da6;
   }
 
-  .choose-us ul{
+  .choose-us ul {
     flex-direction: column;
     margin: 1em 0;
   }
 
-  .choose-us li{
+  .choose-us li {
     flex: 0 0 37%;
     text-align: center;
-    margin:0 8em 1em 8em;
+    margin: 0 8em 1em 8em;
     padding: 0;
   }
 
-
-   .blog-news .blog-list{
+  .blog-news .blog-list {
     display: flex;
     flex-direction: column;
-    gap: 2em
-   }
+    gap: 2em;
+    padding: 2em 4em;
+  }
 
+  .blog-news .blog-list li section {
+    width: 242px;
+    height: 212px;
+    position: relative;
+    margin: 0;
+  }
+
+  .blog-news ul .item .avatar img {
+    display: block;
+    width: 100%;
+    height: 97%;
+    position: absolute;
+    top: 3px;
+    left: 0;
+  }
 }
