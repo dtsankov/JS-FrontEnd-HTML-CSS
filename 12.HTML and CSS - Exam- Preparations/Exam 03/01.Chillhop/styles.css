@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 14px/1.5 "Helvetica", sans-serif;
+}
+
+body {
+  padding: 2em;
+  font: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  border: 4px solid black;
+  border-radius: 1em;
+  background: #1881b6;
+}
+
+.container article {
+  padding: 2em;
+  display: flex;
+}
+
+.container article .upper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container article .upper > * {
+  padding: 0.5em 0.6em;
+}
+
+.container article .upper h3 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.container article .upper h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.container article .upper p {
+  text-indent: 3em;
+  font-size: 12px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.container article .lower {
+  display: flex;
+  gap: 6em;
+  align-items: center;
+  padding: 2em;
+  margin-left: 3em;
+}
+
+.container article .lower p {
+  padding: 0.3em 1em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+}
+
+.container article .lower a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.container article .lower p:nth-child(1) {
+  background: #b6416d;
+}
+
+.container article .lower :nth-child(1) a {
+  color: #ffffff;
+}
+
+.container article .lower :nth-child(2) a {
+  color: black;
+}
