@@ -1,0 +1,30 @@
+.section-hero-banner .container .hero-inner-container{
+    display: flex;
+    flex-direction: column;
+    padding: 4em 2em;
+    height: 48em;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.section-hero-banner .container .hero-inner-container > * {
+  padding: 1em 0 ;
+}
+
+.section-hero-banner .container h2{
+    font-size: 4em;
+}
+
+.section-hero-banner .container h2{
+    font-size: 4em;
+}
+
+.section-hero-banner .container h2{
+    font-size: 4em;
+}
+
+ 
+
+ 

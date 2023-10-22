@@ -1,0 +1,16 @@
+.main-nav ul {
+    display: flex;
+    gap: 4.5em;
+  }
+  
+  .main-nav li,
+  .main-nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+  }
+  
+  .main-nav li {
+    padding: 0.3em 0;
+  }

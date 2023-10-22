@@ -6,6 +6,7 @@
 .main-nav li,
 .main-nav a {
   display: block;
+  text-decoration: none;
 }
 
 .main-nav li {
